@@ -1,0 +1,8 @@
+{
+  "SYN_V1": {
+    "target": {
+      "object": "V1",
+      "schema": "SEFANS_HDI_PARTY"
+    }
+  }
+}

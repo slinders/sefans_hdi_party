@@ -1,0 +1,14 @@
+{
+	"UPS_SEFANS_HDI_PARTY": {
+		"object_owner": {
+			"object_privileges": [
+				{
+				  "type": "VIEW",
+				  "schema": "SEFANS_HDI_PARTY",
+                  "name": "V1",
+                  "privileges_with_grant_option": ["SELECT"]
+				}
+			]
+		}
+	}
+}
