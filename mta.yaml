@@ -1,0 +1,19 @@
+_schema-version: "2.1"
+ID: HDI_PARTY
+version: 0.0.1
+modules:
+- name: db
+  type: hdb
+  path: db
+  requires:
+  - name: SEFANS_HDI_PARTY
+    properties:
+      TARGET_CONTAINER: ~{hdi-container-name}
+resources:
+- name: SEFANS_HDI_PARTY
+  type: com.sap.xs.hdi-container
+  parameters:
+    config:
+      database_id: c71cde07-f86a-4258-b92a-55aff26c9044
+  properties:
+    hdi-container-name: ${service-name}

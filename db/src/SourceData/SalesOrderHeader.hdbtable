@@ -1,0 +1,9 @@
+COLUMN TABLE "SourceData::SalesOrderHeader" (
+    "SalesOrderID" INTEGER NOT NULL,
+    "OrderDate" SECONDDATE NOT NULL,
+    "CustomerName" NVARCHAR(100),
+    "ProductName" NVARCHAR(100),
+    "OrderQuantity" INTEGER,
+    "Sales" DECIMAL(15, 2),
+    PRIMARY KEY ("SalesOrderID")
+);
