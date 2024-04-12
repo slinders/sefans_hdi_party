@@ -1,0 +1,11 @@
+{
+    "password": "<PASSWORD>",
+    "procedure": "HDI_GRANTOR_FOR_CUPS",
+    "procedure_schema": "SEFANS_HDI_PARTY$TEC",
+    "schema": "SEFANS_HDI_PARTY",
+    "tags": [
+        "hana"
+    ],
+    "type": "procedure",
+    "user": "SEFANS_HDI_PARTY#HDI"
+}
