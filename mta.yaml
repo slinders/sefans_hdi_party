@@ -9,10 +9,10 @@ modules:
   - name: SEFANS_HDI_PARTY
     properties:
       TARGET_CONTAINER: ~{hdi-container-name}
-  - name: UPS_SEFANS_HDI_PARTY
-    properties:
-      key: UPS_SEFANS_HDI_PARTY
-      service: ~(service-name)
+  - name: UPS_SEFANS_HDI_PARTYS
+    #properties:
+      #key: UPS_SEFANS_HDI_PARTY
+      #service: ~(service-name)
 resources:
 - name: SEFANS_HDI_PARTY
   type: com.sap.xs.hdi-container
@@ -21,7 +21,7 @@ resources:
       database_id: c71cde07-f86a-4258-b92a-55aff26c9044
   properties:
     hdi-container-name: ${service-name}
-- name: UPS_SEFANS_HDI_PARTY
+- name: UPS_SEFANS_HDI_PARTYS
   type: org.cloudfoundry.existing-service
   parameters:
     service-name: UPS_SEFANS_HDI_PARTY

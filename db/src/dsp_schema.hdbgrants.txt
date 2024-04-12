@@ -1,0 +1,12 @@
+/* does not work, DSP does not allow SELECT on the entire schema */
+{
+	"UPS_SEFANS_HDI_PARTY": {
+		"object_owner": {
+			"schema_privileges": [
+				{
+				  "privileges_with_grant_option": ["SELECT"]
+				}
+			]
+		}
+	}
+}
